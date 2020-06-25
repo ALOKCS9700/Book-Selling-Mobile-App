@@ -1,0 +1,451 @@
+<resources>
+    <string name="app_name">Sell</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="regions">
+
+        <item>
+            Andaman and Nicobar Island
+        </item>
+
+        <item>
+            Andhra Pradesh
+        </item>
+
+        <item>
+            Arunachal Pradesh
+        </item>
+
+        <item>
+            Assam
+        </item>
+
+        <item>
+            Bihar
+        </item>
+
+        <item>
+            Chandigarh
+        </item>
+
+        <item>
+            Chhattisgarh
+        </item>
+
+        <item>
+            Dadra and Nagar Haveli
+        </item>
+
+        <item>
+            Daman and Diu
+        </item>
+
+        <item>
+            Delhi
+        </item>
+
+        <item>
+            Goa
+        </item>
+
+        <item>
+            Gujarat
+        </item>
+
+        <item>
+            Haryana
+        </item>
+
+        <item>
+            Himachal Pradesh
+        </item>
+
+        <item>
+            Jammu and Kashmir
+        </item>
+
+        <item>
+            Jharkhand
+        </item>
+
+        <item>
+            Karnataka
+        </item>
+
+        <item>
+            Kerala
+        </item>
+
+        <item>
+            Lakshadweep
+        </item>
+
+        <item>
+            Madhya Pradesh
+        </item>
+
+        <item>
+            Maharashtra
+        </item>
+
+        <item>
+            Manipur
+        </item>
+
+        <item>
+            Meghalaya
+        </item>
+
+        <item>
+            Mizoram
+        </item>
+
+        <item>
+            Nagaland
+        </item>
+
+        <item>
+            Odisha
+        </item>
+
+        <item>
+            Pondicherry
+        </item>
+
+        <item>
+            Punjab
+        </item>
+
+        <item>
+            Rajasthan
+        </item>
+
+        <item>
+            Sikkim
+        </item>
+
+        <item>
+            Tamil Nadu
+        </item>
+
+        <item>
+            Telangana
+        </item>
+
+        <item>
+            Tripura
+        </item>
+
+        <item>
+            Uttar Pradesh
+        </item>
+
+        <item>
+            Uttaranchal
+        </item>
+
+        <item>
+            West Bengal
+        </item>
+
+    </string-array>
+
+    <string-array name="profession">
+
+        <item>
+            ----Select professional course----
+        </item>
+
+        <item>
+            Govt. Services
+        </item>
+
+        <item>
+            Defence
+        </item>
+
+        <item>
+            Medicine
+        </item>
+
+        <item>
+            MBA
+        </item>
+
+        <item>
+            UGC
+        </item>
+
+        <item>
+            UPSC
+        </item>
+
+        <item>
+            International Exam
+        </item>
+
+        <item>
+            SSC
+        </item>
+
+        <item>
+            LAW
+        </item>
+
+    </string-array>
+
+    <string-array name="academic_chooser">
+
+        <item>
+            ----Select----
+        </item>
+
+        <item>
+            School Books
+        </item>
+
+        <item>
+            Higher Education
+        </item>
+
+    </string-array>
+
+    <string-array name="school_book_chooser">
+
+        <item>
+            Text Books
+        </item>
+
+        <item>
+            Sample Paper
+        </item>
+
+    </string-array>
+
+    <string-array name="higher_education_chooser">
+
+        <item>
+            Computers and Internet
+        </item>
+
+        <item>
+            Science
+        </item>
+
+        <item>
+            Medical
+        </item>
+
+        <item>
+            Management
+        </item>
+
+        <item>
+            Mathematics
+        </item>
+
+        <item>
+            Engineering
+        </item>
+
+        <item>
+            Humanities
+        </item>
+
+        <item>
+            Commerce
+        </item>
+
+        <item>
+            LAW
+        </item>
+
+    </string-array>
+
+    <string-array name="literature_and_fiction_chooser">
+
+        <item>
+            Suspense and Thriller
+        </item>
+
+        <item>
+            Literary Fiction
+        </item>
+
+        <item>
+            Classics
+        </item>
+
+        <item>
+            Comics and Graphic Novel
+        </item>
+
+        <item>
+            Romance
+        </item>
+
+        <item>
+            Science Fiction
+        </item>
+
+        <item>
+            Mystery and Detective
+        </item>
+
+        <item>
+            Fantasy
+        </item>
+
+        <item>
+            Historical Fiction
+        </item>
+
+        <item>
+            Poetry and Drama
+        </item>
+
+        <item>
+            Short Stories
+        </item>
+
+        <item>
+            Horror
+        </item>
+
+    </string-array>
+
+    <string-array name="non_fiction_chooser">
+
+        <item>
+            Biographies and Autobiographies
+        </item>
+
+        <item>
+            History and Politics
+        </item>
+
+        <item>
+            Business
+        </item>
+
+        <item>
+            Self-Help
+        </item>
+
+        <item>
+            Hobbies and Interests
+        </item>
+
+        <item>
+            Philosophy
+        </item>
+
+        <item>
+            Religion and Spirituality
+        </item>
+
+        <item>
+            Travel
+        </item>
+
+        <item>
+            Health and Fitness
+        </item>
+
+    </string-array>
+
+    <string-array name="young_readers_chooser">
+
+        <item>
+            Up to 2 Years
+        </item>
+
+        <item>
+            2 to 5 Years
+        </item>
+
+        <item>
+            5 to 9 Years
+        </item>
+
+        <item>
+            9 to 12 Years
+        </item>
+
+        <item>
+            Young Adults
+        </item>
+
+        <item>
+            Teens
+        </item>
+
+        <item>
+            Classics
+        </item>
+
+        <item>
+            Literature
+        </item>
+
+        <item>
+            Action and Adventure
+        </item>
+
+        <item>
+            Knowledge and Learning
+        </item>
+
+        <item>
+            Fairy Tales and Folk Tales
+        </item>
+
+        <item>
+            Picture Books
+        </item>
+
+    </string-array>
+
+    <string-array name="indian_lang_chooser">
+
+        <item>
+            Gujarati
+        </item>
+
+        <item>
+            Hindi
+        </item>
+
+        <item>
+            Marathi
+        </item>
+
+        <item>
+            Malayalam
+        </item>
+
+        <item>
+            Telugu
+        </item>
+
+        <item>
+            Punjabi
+        </item>
+
+        <item>
+            Bengali
+        </item>
+
+        <item>
+            Tamil
+        </item>
+
+        <item>
+            Kannada
+        </item>
+
+    </string-array>
+
+</resources>

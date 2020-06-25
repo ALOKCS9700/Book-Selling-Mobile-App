@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginEmail"
+    android:weightSum="13"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="7">
+
+        <ImageButton
+            android:id="@+id/login_phone_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_back"
+            android:background="#ffffff"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:text="LOGIN"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Email"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter Your Email"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Password"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter Your Password"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/email_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:text="SIGN UP"
+        android:background="#0526DB"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/email_login"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="10dp"
+        android:text="LOGIN"
+        android:background="#0526DB"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HEBookSelector"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Choose anyone"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="14sp"/>
+
+    <Spinner
+        android:id="@+id/higher_edu_selector"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+    </Spinner>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+
+    </View>
+
+    <Button
+        android:id="@+id/academic_he_next"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="NEXT"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#0031ca"/>
+
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IncludeSomeDetails"
+    android:orientation="vertical"
+    android:weightSum="13">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="7">
+
+        <ImageButton
+            android:id="@+id/include_some_details_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_back"
+            android:background="#ffffff"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:text="INCLUDE SOME DETAILS"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Ad title*"
+        android:textSize="14dp"
+        android:gravity="center_vertical"/>
+
+    <EditText
+        android:id="@+id/book_title"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter book title"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Author"
+        android:textSize="14dp"
+        android:gravity="center_vertical"/>
+
+    <EditText
+        android:id="@+id/book_author"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter author name"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Publisher"
+        android:textSize="14dp"
+        android:gravity="center_vertical"/>
+
+    <EditText
+        android:id="@+id/book_publisher"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Enter publisher name"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Describe about book*"
+        android:textSize="14dp"
+        android:gravity="center_vertical"/>
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Include condition and reason for selling"
+        android:textSize="14dp"
+        android:gravity="center_vertical"/>
+
+    <Button
+        android:id="@+id/isd_next"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="NEXT"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:background="#0031ca"/>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetAddress"
+    android:weightSum="13"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="7">
+
+        <ImageButton
+            android:id="@+id/set_address_back"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_back"
+            android:background="#ffffff"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:textSize="18sp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:text="SET YOUR ADDRESS"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Complete Address*"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:hint="House no. / Flat no. / Floor / Building"
+        android:textSize="14sp"/>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="Choose Region*"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <Spinner
+        android:id="@+id/choose_region"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center_vertical">
+    </Spinner>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Pin Code*"
+        android:gravity="center_vertical"
+        android:layout_gravity="center"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/pin_code"
+        android:layout_width="320dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:hint="Write your pin code"
+        android:textSize="14sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+    </View>
+
+    <Button
+        android:id="@+id/address_next"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="next"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:background="#0031ca"/>
+
+</LinearLayout>
